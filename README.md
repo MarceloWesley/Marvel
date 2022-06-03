@@ -7,7 +7,7 @@ This is a project made with the marvel api https://developer.marvel.com/docs is 
 
  ![Captura de tela de 2022-04-20 14-00-53](https://user-images.githubusercontent.com/88109070/164284445-021a85e2-9a45-4622-b711-c4d9119a0a0f.png)
 
-   with the project cloned, just enter the code and the name of the folder where the project is located, in this case it is MusicMoon, so ```code MusicMoon```
+   with the project cloned, just enter the code and the name of the folder where the project is located, in this case it is Marvel, so ```code Marvel```
    
  ## Getting Started
    Now, with the project open, in your editor, open the terminal and run the following commands.
