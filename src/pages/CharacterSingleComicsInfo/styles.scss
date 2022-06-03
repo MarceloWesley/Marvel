@@ -1,0 +1,87 @@
+section{
+  max-width: 1150px;
+  margin: auto;
+  margin-top: 2rem;
+  display: flex;
+  background-color: rgb(29, 28, 28);
+  border-radius: 0.50rem;
+}
+
+.spacer{
+  padding: 2.4rem;
+  margin-top: 3rem;
+}
+
+.img-container{
+  width: 45%;
+
+img{
+  width: 100%;
+  height: 100%;
+  margin-bottom: -4px;
+  border-radius: 0.50rem 0 0 0.50rem;
+}
+
+}
+
+.info-container{
+  padding: 2rem;
+  display: flex;
+ flex-direction: column;
+  gap: 3rem;
+  width: 100%;
+  
+ h1{
+   color: white;
+   font-family: Bebas Neue, sans-serif;
+   font-size: 2rem;
+   letter-spacing: 0.15rem;
+ }
+
+
+
+ .info2-character-single-comics{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+
+}
+
+.info1-character-single-comics{
+  display: flex;
+  gap: 2rem;
+}
+
+ span{
+  font-family: Bebas Neue, sans-serif;
+  color: #ea2227;
+  font-size: 1.5rem;
+
+}
+
+p{
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.1rem;
+}
+  
+.links{
+  p{
+    font-family: Bebas Neue, sans-serif;
+   font-size: 1.2rem;
+   color: rgb(219, 209, 209);
+     
+     a{
+       color: #ea2227;
+       text-decoration: none;
+     }
+
+     a:hover{
+       text-decoration: underline;
+     }
+}
+     
+ }
+  
+}

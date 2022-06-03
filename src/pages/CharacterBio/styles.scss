@@ -1,0 +1,145 @@
+
+section{
+  max-width: 1150px;
+  margin: auto;
+  margin-top: 2rem;
+  display: flex;
+  background-color: rgb(29, 28, 28);
+  border-radius: 0.50rem;
+  //flex-wrap: wrap;
+}
+
+.spacer{
+  padding: 2.4rem;
+  margin-top: 3rem;
+}
+
+.img-container{
+  width: 45%;
+
+img{
+  width: 100%;
+  margin-bottom: -4px;
+  border-radius: 0.50rem 0 0 0.50rem;
+}
+
+}
+
+.bio-container{
+  padding: 2rem;
+  display: flex;
+ flex-direction: column;
+  gap: 3rem;
+  width: 100%;
+  
+ 
+
+  .name-description{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+   
+    
+    
+
+    .name{
+      width: 100%;
+
+      span{
+        font-family: Bebas Neue, sans-serif;
+        color: #ea2227;
+        font-size: 1.5rem;
+      }
+
+      p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(219, 209, 209);
+        
+      }
+    }
+
+    .description{
+      width: auto;
+
+      span{
+        font-family: Bebas Neue, sans-serif;
+        color: #ea2227;
+        font-size: 1.5rem;
+      
+      }
+
+      p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+      }
+    }
+
+    
+  }
+
+  ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    li{
+      width: 100%;
+      flex: 1 1 200px;
+      margin-right: 1rem;
+    }
+
+    a{
+    
+      display: block;
+      text-decoration: none;
+      text-align: center;
+      background-color: #ea2227;
+      padding: 0.50rem;
+      border-radius: 0.30rem;
+      color: white;
+      font-family: Bebas Neue, sans-serif;
+      letter-spacing: 0.10rem;
+      transition: .2s ease-in;
+     
+     
+  }
+
+  a:hover{
+     transform: translateY(-15%);
+  }
+  }
+
+  .links{
+    p{
+     font-family: Bebas Neue, sans-serif;
+    font-size: 1.2rem;
+    color: rgb(219, 209, 209);
+      
+      a{
+        color: #ea2227;
+        text-decoration: none;
+      }
+
+      a:hover{
+        text-decoration: underline;
+      }
+      
+    }
+  }
+  
+}
+
+@media(max-width: 731px){
+section{
+  flex-wrap: wrap;
+
+  .img-container{
+    margin: 0 auto;
+  }
+
+  ul{
+    gap: 0.5rem;
+  }
+}
+}

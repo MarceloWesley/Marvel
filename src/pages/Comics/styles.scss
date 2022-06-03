@@ -1,0 +1,108 @@
+.list-comics{
+  padding: 1rem;
+  max-width: 1150px;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  list-style: none;
+  background-color: rgb(29, 28, 28);
+  border-radius: 0.25rem;
+
+
+  .card-comics{
+      display: flex;
+      flex-direction: column;
+      border-radius: 5px;
+      width: 20rem;
+      position: relative;
+      transition: 1s ease-in-out;
+      border: solid 1px;
+      margin: 0 auto;
+
+      img{
+          cursor: pointer;
+          border-radius: 0.50rem;
+          height: 100%;
+      }
+      
+     div{
+         position: absolute;
+         width: 100%;
+         height: 7.5%;
+         padding: 2rem 0.5rem;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+         bottom: 0;
+         background-color: rgba(0, 0, 0, 0.856);
+          transition: all .5s ease-out;
+      
+         &:hover{
+             height: 100%;
+             
+
+             .bio{
+                 display: block;
+                 
+             }
+         }
+         
+         .name{
+             color: white;
+             font-family: Bebas Neue, sans-serif;
+             font-size: 1.2rem;
+   
+             
+         }
+
+         .bio{
+             color: white;
+             display: none;
+             margin-top: 0.60rem;
+             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+             font-size: 0.9rem;
+             
+         }
+
+         
+     }
+
+  }
+
+ 
+}
+
+@media(max-width: 1117px){
+    .list-comics{
+     grid-template-columns: repeat(2, 1fr) ;
+     
+     .card-comics{
+         margin: 0 auto;
+         width: 25rem;
+     }
+    } 
+ }
+ 
+ @media(max-width: 870px){
+ .list-comics{
+     grid-template-columns: repeat(1, 1fr) ;  
+    
+     
+     .card-comics{
+        width: 28rem;
+ 
+     }
+ }
+ }
+ 
+ @media(max-width: 475px){
+     .list-comics{
+         
+         .card-comics{
+            width: 20rem;
+     
+         }
+ }
+ }

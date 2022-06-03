@@ -1,0 +1,28 @@
+html{
+  height: 100%;
+  min-height: 100%;
+  scroll-behavior: smooth;
+ 
+}
+
+
+body{
+// background-color: rgb(229, 236, 241);
+background: url('https://i.pinimg.com/originals/45/72/65/4572658a58f450ff49e9a2187b67c72f.jpg') ;
+background-position: center;
+ display: flex;
+ flex-direction: column;
+ min-height: 100%;
+ border: solid;
+ 
+ 
+ //background-color: rgb(15, 15, 15);
+// height: 100vh;
+}
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}

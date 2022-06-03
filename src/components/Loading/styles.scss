@@ -1,0 +1,23 @@
+.spinner{
+animation: loading 1s linear infinite;
+}
+
+.spinner-container{
+  max-width: 1150px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  list-style: none;
+ 
+}
+
+@keyframes loading {
+	0% {
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}

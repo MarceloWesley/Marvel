@@ -1,0 +1,113 @@
+footer {
+  background-color: rgb(29, 28, 28);
+  padding: 3rem;
+  margin-top: auto;
+  
+  
+  
+  
+  //  margin-top: 4.9rem;
+  
+  .footer-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    .logo{
+      strong {
+        font-size: 3rem;
+        font-family: Bebas Neue, sans-serif;
+      }
+
+      p{
+      margin-top: 1rem;
+      color: white;
+
+      a{
+        color: #ea2227;
+
+      }
+      a:hover{
+       text-decoration: underline white;
+      }
+      }
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+   
+
+    .marvel {
+      background-color: #ea2227;
+      color: white;
+      margin-right: 5px;
+      padding: 5px 5px 5px 5px;
+    }
+
+    .studio {
+      color: #ea2227;
+      border-top: 5px solid;
+      border-bottom: 5px solid;
+    }
+
+    .marvel-social-medias {
+      text-align: center;
+
+      span {
+        font-family: Bebas Neue, sans-serif;
+        color: #ea2227;
+        font-size: 1.5rem;
+      }
+
+      ul {
+        display: flex;
+        gap: 2rem;
+        list-style: none;
+      }
+
+      a {
+        color: #ffffff;
+      }
+
+      li {
+        transition: 0.2s ease-in;
+      }
+
+      li:hover {
+        transform: translateY(-10%);
+      }
+    }
+
+    .dev-social-medias {
+      text-align: center;
+
+      span {
+        font-family: Bebas Neue, sans-serif;
+        color: #ea2227;
+        font-size: 1.5rem;
+      }
+
+      ul {
+        display: flex;
+        gap: 2rem;
+        list-style: none;
+      }
+
+      a {
+        color: #ffffff;
+      }
+      li {
+        transition: 0.2s ease-in;
+      }
+
+      li:hover {
+        transform: translateY(-10%);
+      }
+    }
+  }
+}
