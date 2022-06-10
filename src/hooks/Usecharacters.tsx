@@ -7,7 +7,7 @@ import {
 } from "react";
 import md5 from "md5";
 import axios from "axios";
-const baseURL = "http://gateway.marvel.com/v1/public/characters?";
+const baseURL = "https://gateway.marvel.com/v1/public/characters?";
 
 export const publicKey = "4e8df3f1729ebfa42bcb2844cbc8facf";
 export const privateKey = "4c0dd9d904c99a2616de6179da6b4c3ed873609a";

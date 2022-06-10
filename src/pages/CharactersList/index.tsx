@@ -10,7 +10,7 @@ export function CharactersList() {
 
   const navigate = useNavigate();
 
-  console.log(characters);
+  
   if (characters.length === 0) {
     return (
       <>
