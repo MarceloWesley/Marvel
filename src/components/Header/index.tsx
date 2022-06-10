@@ -13,7 +13,9 @@ export function Header() {
     const navigate = useNavigate()
     const onSubmit = (e: FormEvent<HTMLFormElement>) => {
         e.preventDefault()
-        navigate(`/search-result/${slugify(searchValue)}`, {replace: true})
+        navigate(`/search-result/${slugify(searchValue)}`, 
+        {replace: true})
+        setSearchValue('')
     }
     console.log(searchOption)
 
