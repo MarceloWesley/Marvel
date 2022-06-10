@@ -32,7 +32,7 @@ export function CharacterSingleComicsInfo() {
     return [day, month, year].join(sep);
   };
 
-  console.log(selectedCharacterComicsInfo);
+ 
 
   if (selectedCharacterComicsInfo.length === 0) {
     return (
@@ -63,7 +63,7 @@ export function CharacterSingleComicsInfo() {
     }
   );
   const Penciler = pencilerFilter.filter((element) => element != undefined);
-  console.log(Writers);
+ 
 
   const Data = formatDate(selectedCharacterComicsInfo[0].dates[0]?.date);
 

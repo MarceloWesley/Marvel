@@ -1,5 +1,5 @@
-import { CircleNotch } from "phosphor-react";
 import { useEffect, useState } from "react";
+import shield from '../../assets/shield.png'
 import './styles.scss'
 
 export function Loading(){
@@ -15,9 +15,8 @@ export function Loading(){
   
   return(
     <div className="spinner-container">
-      {finishedTimeout ? <h2>Search not found - Try again</h2> :  <CircleNotch className="spinner" weight="bold" size={50} />}
+      {finishedTimeout ? <h2>Search not found - Try again</h2> :  <img className="shield spinner" src={shield} alt="" />}
     </div>
   )
 }
 
-//   <CircleNotch className="spinner" weight="bold" size={50} />

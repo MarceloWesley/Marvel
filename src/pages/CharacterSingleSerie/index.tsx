@@ -28,8 +28,6 @@ export function CharacterSingleSerie() {
       );
   }, [charId]);
 
-  console.log(selectedCharacterSeries);
-
   if (selectedCharacterSeries.length === 0) {
     return (
       <>

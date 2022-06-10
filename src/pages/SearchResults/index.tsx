@@ -23,7 +23,6 @@ export function SearchResults() {
   function seriesInfo(id: number) {
     navigate(`/series/seriesInfo/${id}`, { replace: true });
   }
-  console.log(searchCharacterValue);
 
   if (searchOption === "character") {
     if (searchCharacterValue.length === 0) {

@@ -40,7 +40,7 @@ export function ComicInfo() {
     );
   }
 
-  console.log(selectedComic[0].creators.items);
+  
   const writersFilter = selectedComic[0].creators.items.map(
     (creator, index) => {
       if (creator.role === "writer") {

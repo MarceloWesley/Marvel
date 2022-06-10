@@ -28,7 +28,6 @@ export function CharacterSingleComics() {
       );
   }, [charId]);
 
-  console.log(selectedCharacterComics);
 
   if (selectedCharacterComics.length === 0) {
     return (

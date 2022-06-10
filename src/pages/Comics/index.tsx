@@ -7,7 +7,6 @@ import "./styles.scss";
 
 export function Comics() {
   const { comics } = useComics();
-  console.log(comics);
   const navigate = useNavigate();
 
   if (comics.length === 0) {

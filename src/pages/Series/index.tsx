@@ -7,7 +7,6 @@ import "./styles.scss";
 
 export function Series() {
   const { series } = useSeries();
-  console.log(series);
   const navigate = useNavigate();
 
   if (series.length === 0) {

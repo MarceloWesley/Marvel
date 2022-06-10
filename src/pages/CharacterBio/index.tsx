@@ -30,7 +30,7 @@ export function CharacterBio() {
       .then((response) => setSelectedCharacter(response.data.data.results));
   }, [charId]);
 
-  console.log(selectedCharacter);
+
 
   if (selectedCharacter.length === 0) {
     return (
@@ -40,7 +40,7 @@ export function CharacterBio() {
       </>
     );
   }
-  console.log(selectedCharacter[0].urls[1].url);
+  
   return (
     <>
       <Header />

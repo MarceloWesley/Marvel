@@ -7,7 +7,6 @@ import {
 } from "react";
 import md5 from "md5";
 import axios from "axios";
-//import { comicsProps, useComics } from "./UseComics";
 const baseURL = "http://gateway.marvel.com/v1/public/characters?";
 
 export const publicKey = "4e8df3f1729ebfa42bcb2844cbc8facf";

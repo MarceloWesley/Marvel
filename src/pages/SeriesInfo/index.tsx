@@ -13,7 +13,6 @@ const baseURL = "https://gateway.marvel.com:443/v1/public/series/";
 
 export function SeriesInfo() {
   const [selectedSeries, setSelectedSeries] = useState<seriesProps[]>([]);
-  console.log(selectedSeries);
   const { seriesId } = useParams();
 
   useEffect(() => {
@@ -49,7 +48,7 @@ export function SeriesInfo() {
     }
   });
   const Penciler = pencilerFilter.filter((element) => element != undefined);
-  console.log(Penciler);
+
 
   return (
     <>

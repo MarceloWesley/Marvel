@@ -29,7 +29,7 @@ export function SearchContextProvider({ children }: SearchProviderProps) {
   const [searchSeriesValue, setSearchSeriesValue] = useState<seriesProps[]>([]);
   const [searchValue, setSearchValue] = useState("");
   const { getCharacter, getComics, getSeries } = FetchSearch();
-  console.log(searchOption);
+
 
   const setSearch = async (name: string) => {
     switch (searchOption) {

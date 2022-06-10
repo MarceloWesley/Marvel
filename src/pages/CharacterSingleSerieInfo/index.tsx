@@ -25,7 +25,6 @@ export function CharactersingleSerieInfo() {
       );
   }, [serieId]);
 
-  console.log(selectedCharacterSerieInfo);
 
   if (selectedCharacterSerieInfo.length === 0) {
     return (
