@@ -42,7 +42,7 @@ export function CharacterSingleSerie() {
   return (
     <>
       <Header />
-      <h1>Series que {charName} participou</h1>
+      <h1 className="title">Series que {charName} participou</h1>
       <ul className="list-single-serie">
         {selectedCharacterSeries.map((characterSerie) => (
           <li className="card-character-series" key={characterSerie.id}>

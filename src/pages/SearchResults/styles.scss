@@ -10,7 +10,6 @@
     padding: 1rem;
 
 
-
   li{
       display: flex;
       flex-direction: column;
@@ -19,6 +18,7 @@
       position: relative;
       transition: 1s ease-in-out;
       border: solid 1px;
+      min-height: 15rem;
 
       img{
           cursor: pointer;
@@ -105,3 +105,10 @@
  }
  }
 
+ .spacer-2{
+    position: absolute;
+    //bottom: -63.5rem;
+    background-color: rgb(29, 28, 28);;
+    width: 100%;
+    padding: 0.6rem;
+   }

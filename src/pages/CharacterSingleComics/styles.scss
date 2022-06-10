@@ -1,10 +1,12 @@
-h1{
-  font-family: Bebas Neue, sans-serif;
-  color: #ea2227;
-  padding: 0.5rem 0 0;
-  max-width: 1150px;
-  letter-spacing: 0.15rem;
-  margin: 0 auto;
+.title-comic{
+    font-family: Bebas Neue, sans-serif;
+    background-color: rgb(29, 28, 28);
+    color: #ea2227;
+    padding: 0.5rem 0.5rem 0;
+    max-width: 500px;
+    letter-spacing: 0.15rem;
+    margin: 1rem auto;
+    border-radius: 1rem;
 }
 
 .list-single-comic{

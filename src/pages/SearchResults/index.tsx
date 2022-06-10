@@ -59,8 +59,11 @@ export function SearchResults() {
               </li>
             ))}
           </ul>
-
+          
           <Footer />
+          <div className="spacer-2">
+
+          </div>
         </>
         )
       </>
@@ -103,6 +106,9 @@ export function SearchResults() {
             <p></p>
           </div>
           <Footer />
+          <div className="spacer-2">
+
+          </div>
         </>
         )
       </>
@@ -142,6 +148,9 @@ export function SearchResults() {
             ))}
           </ul>
           <Footer />
+          <div className="spacer-2">
+
+          </div>
         </>
         )
       </>

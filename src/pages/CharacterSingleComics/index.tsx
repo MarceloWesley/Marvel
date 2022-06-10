@@ -42,7 +42,7 @@ export function CharacterSingleComics() {
   return (
     <>
       <Header />
-      <h1>Comics que {charName} participou</h1>
+      <h1 className="title-comic">Comics que {charName} participou</h1>
       <ul className="list-single-comic">
         {selectedCharacterComics.map((characterComics) => (
           <li className="card-character-comics" key={characterComics.id}>
