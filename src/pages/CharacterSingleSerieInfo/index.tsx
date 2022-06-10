@@ -108,18 +108,18 @@ export function CharactersingleSerieInfo() {
                 : selectedCharacterSerieInfo[0].description}
             </p>
           </div>
-
+          
           <div className="links">
             <p>
-              Acesse os{" "}
+              you can {" "}
               <a
                 href={selectedCharacterSerieInfo[0].urls[0].url}
                 target="_blank"
                 rel="noreferrer"
               >
-                detalhes
+                acess the
               </a>{" "}
-              dessa serie
+              details of this SERIE
             </p>
           </div>
         </div>

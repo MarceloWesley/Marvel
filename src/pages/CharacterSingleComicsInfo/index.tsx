@@ -113,18 +113,18 @@ export function CharacterSingleComicsInfo() {
                 : selectedCharacterComicsInfo[0].description}
             </p>
           </div>
-
+          
           <div className="links">
             <p>
-              Acesse os{" "}
+              you can{" "}
               <a
                 href={selectedCharacterComicsInfo[0].urls[0].url}
                 target="_blank"
                 rel="noreferrer"
               >
-                detalhes
+                acess the details
               </a>{" "}
-              dessa Comic
+              of this comic
             </p>
           </div>
         </div>
