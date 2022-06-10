@@ -17,7 +17,7 @@ export function Header() {
         {replace: true})
         setSearchValue('')
     }
-    console.log(searchOption)
+   
 
     return(
         <>

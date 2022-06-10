@@ -10,7 +10,7 @@ import axios from "axios";
 
 const baseURL = "https://gateway.marvel.com:443/v1/public/comics?";
 export const publicKey = "4e8df3f1729ebfa42bcb2844cbc8facf";
-export const privateKey = "4c0dd9d904c99a2616de6179da6b4c3ed873609a";
+export const privateKey = process.env.REACT_APP_PRIVATEKEY || 'not found'
 export const time = Number(new Date());
 export const hash = md5(time + privateKey + publicKey);
 

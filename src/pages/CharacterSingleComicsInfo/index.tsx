@@ -52,6 +52,7 @@ export function CharacterSingleComicsInfo() {
   );
 
   const Writers = writersFilter.filter((element) => element !== undefined);
+  const writerString = Writers.join(' - ')
 
   const pencilerFilter = selectedCharacterComicsInfo[0].creators.items.map(
     (creator) => {
@@ -63,7 +64,7 @@ export function CharacterSingleComicsInfo() {
     }
   );
   const Penciler = pencilerFilter.filter((element) => element != undefined);
- 
+  const pencilerString = Penciler.join(' - ')
 
   const Data = formatDate(selectedCharacterComicsInfo[0].dates[0]?.date);
 
@@ -89,17 +90,17 @@ export function CharacterSingleComicsInfo() {
           <div className="info2-character-single-comics">
             <div className="writer">
               <span>Writer</span>
-              <p>{Writers.length === 0 ? "Not Found" : Writers}</p>
+              <p>{Writers.length === 0 ? "Not Found" : writerString}</p>
             </div>
 
             <div className="penciler">
               <span>Penciler</span>
-              <p>{Penciler.length === 0 ? "Not Found" : Penciler}</p>
+              <p>{Penciler.length === 0 ? "Not Found" : pencilerString}</p>
             </div>
 
             <div className="cover-artist">
               <span>Cover Artist</span>
-              <p>{Penciler.length === 0 ? "Not Found" : Penciler}</p>
+              <p>{Penciler.length === 0 ? "Not Found" : pencilerString}</p>
             </div>
           </div>
 

@@ -39,6 +39,7 @@ export function SeriesInfo() {
   );
 
   const Writers = writersFilter.filter((element) => element !== undefined);
+  const writerString = Writers.join(' - ')
 
   const pencilerFilter = selectedSeries[0].creators.items.map((creator) => {
     if (creator.role === "penciller") {
@@ -48,6 +49,7 @@ export function SeriesInfo() {
     }
   });
   const Penciler = pencilerFilter.filter((element) => element != undefined);
+  const pencileString = Penciler.join(' - ')
 
 
   return (
@@ -77,17 +79,17 @@ export function SeriesInfo() {
           <div className="info2-series">
             <div className="writer">
               <span>Writer</span>
-              <p>{Writers.length === 0 ? "Not Found" : Writers}</p>
+              <p>{Writers.length === 0 ? "Not Found" : writerString}</p>
             </div>
 
             <div className="penciler">
               <span>Penciler</span>
-              <p>{Penciler.length === 0 ? "Not Found" : Penciler}</p>
+              <p>{Penciler.length === 0 ? "Not Found" : pencileString}</p>
             </div>
 
             <div className="cover-artist">
               <span>Cover Artist</span>
-              <p>{Penciler.length === 0 ? "Not Found" : Penciler}</p>
+              <p>{Penciler.length === 0 ? "Not Found" : pencileString}</p>
             </div>
           </div>
 

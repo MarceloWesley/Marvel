@@ -1,5 +1,5 @@
 import "./styles.scss";
-import { InstagramLogo } from "phosphor-react";
+import { GithubLogo, InstagramLogo } from "phosphor-react";
 import { FacebookLogo } from "phosphor-react";
 import { TwitterLogo } from "phosphor-react";
 import { useNavigate } from "react-router-dom";
@@ -31,7 +31,7 @@ export function Footer() {
           <ul>
             <li><a href="https://www.instagram.com/marcelo_olyscott/" target={"_blank"} rel="noreferrer"><InstagramLogo size={35}/></a></li>
             <li><a href="https://twitter.com/MarceloOliscott" target={"_blank"} rel="noreferrer"><TwitterLogo size={35}/></a></li>
-            <li><a href="https://www.facebook.com/profile.php?id=100004307259256" target={"_blank"} rel="noreferrer"><FacebookLogo size={35}/></a></li>
+            <li><a href="https://github.com/MarceloWesley" target={"_blank"} rel="noreferrer"><GithubLogo size={32} /></a></li>
           </ul>
         </div>
       </div>
