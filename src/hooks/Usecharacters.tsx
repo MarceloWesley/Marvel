@@ -13,7 +13,7 @@ export const publicKey = "4e8df3f1729ebfa42bcb2844cbc8facf";
 export const privateKey = process.env.REACT_APP_PRIVATEKEY || 'not found'
 export const time = Number(new Date());
 export const hash = md5(time + privateKey + publicKey);
-
+console.log(privateKey)
 
 export interface charactersprops {
   id: number;
