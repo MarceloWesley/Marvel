@@ -15,7 +15,7 @@ export function Loading(){
   
   return(
     <div className="spinner-container">
-      {finishedTimeout ? <h2>Search not found - Try again</h2> :  <img className="shield spinner" src={shield} alt="" />}
+      {finishedTimeout ? <h2 className="title-loading">Search not found - Try again</h2> :  <img className="shield spinner" src={shield} alt="" />}
     </div>
   )
 }

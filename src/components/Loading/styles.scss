@@ -11,6 +11,15 @@ animation: loading 1s linear infinite;
   margin-top: 2rem;
   list-style: none;
 
+  .title-loading{
+    background-color: rgb(29, 28, 28);
+    padding: 1rem;
+    border-radius: 30px;
+    color: #ea2227;
+    font-family: Bebas Neue, sans-serif;
+    letter-spacing: 0.10rem;
+  }
+
   .shield{
     width: 100px;
     height: 100px;
