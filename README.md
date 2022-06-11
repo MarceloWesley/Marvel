@@ -1,5 +1,5 @@
 # About
-This is a project made with the marvel api https://developer.marvel.com/docs is a project that simulates a small wiki of characters, comics and series, contains links to their complete biographies and information about the comics and series , the project is still not 100% complete, as the code needs to be refactored.
+This is a project made with the marvel api https://developer.marvel.com/docs is a project that simulates a small wiki of characters, comics and series, contains links to their complete biographies and information about the comics and series.
 
 ##  Cloning the Project
 - first you can clone the project remotely with ```git clone (SSH key or web http)``` Example: git clone git@github.com:MarceloWesley/MusicMoon.git
